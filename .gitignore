@@ -30,3 +30,6 @@ override.tf.json
 
 *tfvars
 .idea
+.envrc
+.terraform.lock.hcl
+.DS_Store

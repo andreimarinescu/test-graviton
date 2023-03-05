@@ -1,18 +1,18 @@
 terraform {
   backend "s3" {
-    bucket = "<your-tf-s3-bucket>"
+    bucket = "test-graviton"
     key    = "deployments-tfstate"
     region = "us-east-2"
   }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 3.20.0"
+      version = "~> 4.0"
     }
 
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = ">= 2.0.1"
+      version = ">= 2.17.0"
     }
   }
 }

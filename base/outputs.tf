@@ -38,12 +38,12 @@ output "prod_ecr_registry_id" {
   description = "ID of ECR repository for production backend"
 }
 
-output "dev_frontend_1_url" {
-  value = module.frontend_1.cloudfront_url
-  description = "CF URL for frontend"
-}
-
-output "dev_frontend_2_url" {
-  value = module.frontend_2.cloudfront_url
-  description = "CF URL for second frontend"
-}
+#output "dev_frontend_1_url" {
+#  value = module.frontend_1.cloudfront_url
+#  description = "CF URL for frontend"
+#}
+#
+#output "dev_frontend_2_url" {
+#  value = module.frontend_2.cloudfront_url
+#  description = "CF URL for second frontend"
+#}
